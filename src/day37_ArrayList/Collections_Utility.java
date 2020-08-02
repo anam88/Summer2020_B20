@@ -15,5 +15,14 @@ public class Collections_Utility {
         Integer minNum = Collections.min(list);
         System.out.println(maxNum);
         System.out.println(minNum);
+        System.out.println("================================================");
+
+        ArrayList<String> names = new ArrayList<>();
+        names.addAll(Arrays.asList("John","Smith","Will","Saim","John"));
+
+        //replaceAll
+        Collections.replaceAll(names,"John","Anam");
+        System.out.println(names);
+
     }
 }
