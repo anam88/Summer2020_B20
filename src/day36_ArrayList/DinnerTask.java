@@ -8,6 +8,7 @@ public class DinnerTask {
         /*
         Task: write a program that can find a unique character from a string
         DO NOT USE NESTED LOOP
+         "ABABCDEE"
          */
         ArrayList<String> str = new ArrayList<>();
             str.add("A");
