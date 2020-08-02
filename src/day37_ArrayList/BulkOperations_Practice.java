@@ -16,5 +16,14 @@ public class BulkOperations_Practice {
 
         boolean r =  students.containsAll(Arrays.asList("Ulku", "Busra"));
         System.out.println(r);
+        System.out.println("=============================================");
+
+//Task: write a program that can remove all the names named "Ahmed" from the list of name
+        ArrayList<String> employeeNames = new ArrayList<>();
+        employeeNames.addAll(Arrays.asList("John", "Smith","Ahmed","Ahmed","Ali","Iman","Muhatar"));
+        System.out.println(employeeNames);
+        employeeNames.removeAll(Arrays.asList("Ahmed"));
+        System.out.println(employeeNames);
+
     }
 }

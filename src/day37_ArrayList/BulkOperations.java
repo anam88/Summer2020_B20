@@ -1,5 +1,6 @@
 package day37_ArrayList;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -45,6 +46,35 @@ public class BulkOperations {
         //by calling asList method we are able to pass array and convert them in to arrayList
         //you can also pass the value by itself using asList
         System.out.println(num);
+        System.out.println("===============================");
+
+//TASK
+        ArrayList<String> group9 = new ArrayList<>();
+        //add all student name in your group
+        String[] str = {"Zarina","Hamid","Iman","Fatma","Murat","Shoaib","Alena"};
+        group9.addAll((Arrays.asList(str)));
+        System.out.println(group9);
+        //verify your mentor and one of your closet friend name are contain in the list OR not
+        boolean containOrNot = group9.containsAll(Arrays.asList("Dardan", "John"));
+        System.out.println(containOrNot);
+        System.out.println("===============================");
+//removeAll()
+
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.addAll(Arrays.asList(1,1,2,2,3,4,5,5,6,7,8,9,10,11,12,13));
+        System.out.println(nums);
+        //remove all 1,2,5,10,11
+        nums.removeAll(Arrays.asList(1,2,5,10,11));
+        System.out.println(nums);
+        System.out.println("======================================");
+//retainAll(CollectionType)
+        ArrayList<Integer> num1 = new ArrayList<>();
+        num1. addAll(Arrays.asList(1,1,2,2,3,4,5,5,6,7,8,9,10,11,12,13));
+        System.out.println(num1);
+        //only keep the elements that are either 1, or 2, or 3, or 9
+        num1.retainAll(Arrays.asList(1,2,3,9));
+        System.out.println(num1);
+        System.out.println("======================================");
 
 
     }
