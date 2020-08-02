@@ -26,6 +26,9 @@ public class FrequencyOfChars {
             int count = Collections.frequency(list, each);
             System.out.println(each+count);
         }
+        System.out.println("===============================================");
+
+
 
     }
 }
