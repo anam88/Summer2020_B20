@@ -1,6 +1,6 @@
 package day09_IfStatement;
 
-public class Buy_Alcohol {
+ public class Buy_Alcohol {
     /*
         4. write a java program that can identify if a person is eligible to buy alcohol
         we will use && logic, because for && logic both condition has to be TRUE

@@ -16,7 +16,7 @@ public class GradeTask_AfterClass {
 
         ArrayList<Integer> grades = new ArrayList<>();
 
-        grades.addAll(Arrays.asList(100,90,85,75,55,45,73,73,35,47,60,87,77,67,57,47,93,83,63,53,43));
+        grades.addAll(Arrays.asList(100,90,85,83,82,84,75,55,45,73,73,64,67,65,66,35,47,60,87,77,67,57,47,93,83,63,53,43));
         Collections.sort(grades);
         System.out.println(grades);
 
@@ -51,6 +51,12 @@ public class GradeTask_AfterClass {
         gradeF.removeAll(gradeC);
         gradeF.removeAll(gradeD);
         System.out.println("Grade F: "+gradeF);
+        System.out.println("==================================");
+        System.out.println("Number of students that got A: "+gradeA.size());
+        System.out.println("Number of students that got B: "+gradeB.size());
+        System.out.println("Number of students that got C: "+gradeC.size());
+        System.out.println("Number of students that got D: "+gradeD.size());
+        System.out.println("Number of students that failed: "+gradeF.size());
 
 
     }

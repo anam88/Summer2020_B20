@@ -1,5 +1,7 @@
 package day10_IfStatements;
 
+
+
 public class Warmup_Task01 {
     /*
     1. write a program that can identify if the given character character is Alphabetic
