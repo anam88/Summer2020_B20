@@ -7,7 +7,8 @@ public class EligibleToVote {
   Name of user
  */
 public static void main(String[] args) {
-    vote("John", 16, true, "Donald Trump" );
+    vote("John", 16,
+            true, "Donald Trump" );
 }
 
     public static void vote(String name, int age, boolean citizenship, String candidateName  ){

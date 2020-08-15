@@ -1,5 +1,7 @@
 package day39_CustomClass;
 
+import java.util.Arrays;
+
 public class EmployeesObjects {
     public static void main(String[] args) {
         //create object by using Array list
@@ -14,6 +16,7 @@ public class EmployeesObjects {
                 150000);
         employeeData[3].setEmployeeInfo("Anna",'F',"852963214","Senior SDET",
                 165000);
+        System.out.println(employeeData);
 
 
 
