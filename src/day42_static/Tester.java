@@ -8,6 +8,7 @@ setInfo(), smokeTesting(),  creatingTicket(), toString()
 
 */
 public class Tester {
+    public int ID;
     String name;
     char gender;
     long employeeID;
