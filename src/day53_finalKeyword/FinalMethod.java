@@ -9,7 +9,7 @@ class A{
         System.out.println("enter username and password");
     }
 }
-public class FinalMethod extends A{
+public class FinalMethod {
 
  /*   @Override  //--to check if the method is overridden
     public void method1() { cannot override due to final word
