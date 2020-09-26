@@ -17,7 +17,7 @@ public class Rectangle extends Shape{
         name = "Rectangle";
         hasVolume = true;
     }
-    Rectangle(double length, double width, double height){
+    public Rectangle(double length, double width, double height){
         if(length <= 0 || width <= 0 || height <= 0){
             throw new RuntimeException(
                     "Length, Height, & Width of Rectangle cannot be 0 or negative");

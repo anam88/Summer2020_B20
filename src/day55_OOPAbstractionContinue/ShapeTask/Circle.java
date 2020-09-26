@@ -22,7 +22,7 @@ public class Circle extends Shape{
         name = "Circle";
         hasVolume = false;
     }
-    Circle(double radius){
+   public Circle(double radius){
         if(radius <= 0){//creating a manual exception by using throw keyword
            throw new RuntimeException("Radius of Circle cannot be 0 or negative");
         }
